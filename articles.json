@@ -1,13 +1,702 @@
 [
   {
-    "num": 73,
-    "slug": "073-logical-illogicality",
+    "num": 1,
+    "slug": "01-2014-06-blazing-a-path",
+    "title": "Blazing A Path",
+    "dek": "In his first column for Chess Life, GM Daniel Naroditsky begins his endings investigations with a look at pawn-only endgames.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "June 2014",
+    "date": "2014-06",
+    "players": "GM Robert James Fischer – GM Arthur Bisguier"
+  },
+  {
+    "num": 2,
+    "slug": "02-2014-07-knight-endings",
+    "title": "Knight Endings",
+    "dek": "As in pawn endings, knight endings require precise calculation, else disaster lurks around the corner.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "July 2014",
+    "date": "2014-07",
+    "players": "Harry Nelson Pillsbury – Isidor Gunsberg"
+  },
+  {
+    "num": 3,
+    "slug": "03-2014-08-courage-versus-caution",
+    "title": "Courage versus Caution",
+    "dek": "A titanic bishop versus knight battle",
+    "author": "GM Daniel Naroditsky",
+    "issue": "August 2014",
+    "date": "2014-08",
+    "players": "GM Roman Dzindzichashvili – GM Lubomir Kavalek"
+  },
+  {
+    "num": 4,
+    "slug": "04-2014-09-an-endgame-selfie",
+    "title": "An Endgame “ Selfie ”",
+    "dek": "An example of saving a draw from a seemingly disastrous position.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "September 2014",
+    "date": "2014-09",
+    "players": "GM Alexander Onischuk – GM Daniel A. Naroditsky"
+  },
+  {
+    "num": 5,
+    "slug": "05-2014-10-the-fighting-ocbs",
+    "title": "The Fighting OCBs",
+    "dek": "“It is a cliche that most cliches are true, but then like most cliches, that cliche is untrue.” —Stephen Fry",
+    "author": "GM Daniel Naroditsky",
+    "issue": "October 2014",
+    "date": "2014-10",
+    "players": "GM Gata Kamsky – GM Aleksandr Lenderman"
+  },
+  {
+    "num": 6,
+    "slug": "06-2014-11-channeling-karpov",
+    "title": "Channeling Karpov",
+    "dek": "GM Fabiano Caruana’s opening preparation and calculating ability are world class, but one does not become a super-grandmaster without exceptional endgame technique to complete the package.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "November 2014",
+    "date": "2014-11",
+    "players": "GM Fabiano Caruana – GM Magnus Carlsen"
+  },
+  {
+    "num": 7,
+    "slug": "07-2014-11-the-moment-of-truth-rook-endings",
+    "title": "The Moment of Truth: Rook Endings",
+    "dek": "“[Rook endings] are often so complex, so replete with tactical nuances and daunting calculation tasks that even grandmasters tend to slip up at critical junctures.”",
+    "author": "GM Daniel Naroditsky",
+    "issue": "November 2014",
+    "date": "2014-11",
+    "players": "IM Edmar Mednis – GM Arthur Bisguier"
+  },
+  {
+    "num": 8,
+    "slug": "08-2015-01-rook-versus-bishop",
+    "title": "Rook versus Bishop",
+    "dek": "The material imbalance of rook against bishop can be improbably favorable for the defending side.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "January 2015",
+    "date": "2015-01",
+    "players": "GM Jose Luis Fernandez Garcia – GM Sam Shankland"
+  },
+  {
+    "num": 9,
+    "slug": "09-2015-02-the-heart-of-a-devil",
+    "title": "The Heart of a Devil",
+    "dek": "Shortly after becoming Chess Life’s endgame columnist, GM Daniel Naroditsky played what he describes as “the most fascinating endgame … in my chess career.”",
+    "author": "GM Daniel Naroditsky",
+    "issue": "February 2015",
+    "date": "2015-02",
+    "players": "Baadur Jobava – Daniel Naroditsky"
+  },
+  {
+    "num": 10,
+    "slug": "10-2015-03-fasten-your-seatbelts",
+    "title": "Fasten Your Seatbelts",
+    "dek": "A virtually unknown endgame battle from 1972 that has a little bit of everything going on.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "March 2015",
+    "date": "2015-03",
+    "players": "Michael Stean – Adolf Herzog Greifensee, 1972"
+  },
+  {
+    "num": 11,
+    "slug": "11-2015-04-fighting-tooth-and-nail",
+    "title": "Fighting Tooth-and-Nail",
+    "dek": "A challenging endgame from the 2015 Tata Steel event in Wijk aan Zee.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "April 2015",
+    "date": "2015-04",
+    "players": "GM Erwin L’Ami – GM Bart Michiels"
+  },
+  {
+    "num": 12,
+    "slug": "12-2015-05-a-world-turned-upside-down",
+    "title": "A World Turned Upside Down",
+    "dek": "An endgame featuring many beautiful motifs, twists-and-turns, and instructive moments.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "May 2015",
+    "date": "2015-05",
+    "players": "FM Joel Salman – IM Jay Bonin"
+  },
+  {
+    "num": 13,
+    "slug": "13-2015-06-ego-trip",
+    "title": "Ego Trip",
+    "dek": "Naroditsky had a brutal experience at the 2015 U.S. Championship, but here is an example of what went right.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "June 2015",
+    "date": "2015-06",
+    "players": "GM Daniel Naroditsky – GM Conrad Holt"
+  },
+  {
+    "num": 14,
+    "slug": "14-2015-07-mistakes-the-best-way-to-learn",
+    "title": "Mistakes: The Best Way to Learn",
+    "dek": "The most instructive games are not always the most aesthetically pleasing.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "July 2015",
+    "date": "2015-07",
+    "players": "GM Arnold Denker – GM Samuel Reshevsky"
+  },
+  {
+    "num": 15,
+    "slug": "15-2015-08-an-old-school-brawl",
+    "title": "An Old-School Brawl",
+    "dek": "While long-time U.S. Champion Frank Marshall had a deserved reputation for his sharp tactical abilities, he has something to teach us in the endgame as well.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "August 2015",
+    "date": "2015-08",
+    "players": "Mikhail Chigorin – Frank Marshall"
+  },
+  {
+    "num": 16,
+    "slug": "16-2015-09-remembering-gm-walter-browne",
+    "title": "Remembering GM Walter Browne",
+    "dek": "Taking a look at the endgame virtuosity of our recently deceased former U.S. champion",
+    "author": "GM Daniel Naroditsky",
+    "issue": "September 2015",
+    "date": "2015-09",
+    "players": "GM Walter Browne – GM Ljubomir Ftacnik"
+  },
+  {
+    "num": 17,
+    "slug": "17-2015-10-never-say-never",
+    "title": "Never Say Never",
+    "dek": "Pawn endgames and premature resignation",
+    "author": "GM Daniel Naroditsky",
+    "issue": "October 2015",
+    "date": "2015-10",
+    "players": "GM Tiger Hillarp Persson – GM Markus Ragger"
+  },
+  {
+    "num": 18,
+    "slug": "18-2015-11-the-art-of-liquidation",
+    "title": "The Art of Liquidation",
+    "dek": "Picking up the theme of Joel Benjamin’s recent book, we look at more examples of liquidating to a pawn endgame",
+    "author": "GM Daniel Naroditsky",
+    "issue": "November 2015",
+    "date": "2015-11",
+    "players": "GM Daniel Naroditsky – GM Robert Hovhannisyan"
+  },
+  {
+    "num": 19,
+    "slug": "19-2015-12-hanging-by-a-thread",
+    "title": "Hanging by a Thread",
+    "dek": "How adopting Teddy Roosevelt’s attitude of unbridled, unwavering resilience in the face of adversity can improve your endgame play.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "December 2015",
+    "date": "2015-12",
+    "players": "GM Fabiano Caruana – IM Kannappan Priyadharshan"
+  },
+  {
+    "num": 20,
+    "slug": "20-2016-01-keeping-a-clear-head",
+    "title": "Keeping a Clear Head",
+    "dek": "How to use common sense, intuition, and calculation when you don’t know the theory.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "January 2016",
+    "date": "2016-01",
+    "players": "Louis-Charles Mahé de Labourdonnais – Alexander McDonnell"
+  },
+  {
+    "num": 21,
+    "slug": "21-2016-02-a-tale-of-two-passed-pawns",
+    "title": "A Tale of Two Passed Pawns",
+    "dek": "Remembering Emory Tate",
+    "author": "GM Daniel Naroditsky",
+    "issue": "February 2016",
+    "date": "2016-02",
+    "players": "FM Emory Tate – FM Maurice Ashley"
+  },
+  {
+    "num": 22,
+    "slug": "22-2016-03-of-knights-and-men",
+    "title": "Of Knights and Men",
+    "dek": "We real cool. We Left school. We Lurk late. We Strike straight. We Sing sin. We Thin gin. We Jazz June. We Die soon. ~Gwendolyn Brooks, 1960",
+    "author": "GM Daniel Naroditsky",
+    "issue": "March 2016",
+    "date": "2016-03",
+    "players": "GM Baris Esen – IM Eesha Karavade"
+  },
+  {
+    "num": 23,
+    "slug": "23-2016-04-dirty-rotten-trades",
+    "title": "Dirty Rotten Trades",
+    "dek": "When faced with a trade, don’t make a gut decision.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "April 2016",
+    "date": "2016-04",
+    "players": "GM Magnus Carlsen – GM Hou Yifan"
+  },
+  {
+    "num": 24,
+    "slug": "24-2016-05-unperpetual-check",
+    "title": "(Un)Perpetual Check",
+    "dek": "Avoiding the ugly specter of perpetual check when a win is in sight.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "May 2016",
+    "date": "2016-05",
+    "players": "GM Alex Sherzer – FM Istvan Almasi"
+  },
+  {
+    "num": 25,
+    "slug": "25-2016-06-false-friends",
+    "title": "False Friends",
+    "dek": "A false friend in chess is an idea, method, or concept that is valid in one type of position, but that a player mistakenly applies in another.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "June 2016",
+    "date": "2016-06",
+    "players": "GM Jon Ludvig Hammer – GM Nils Grandelius"
+  },
+  {
+    "num": 26,
+    "slug": "26-2016-07-a-comedy-of-lessons",
+    "title": "A Comedy of Lessons",
+    "dek": "GM Irina Krush and WFM Jennifer Yu’s epic endgame at the 2016 U.S. Women’s Championship",
+    "author": "GM Daniel Naroditsky",
+    "issue": "July 2016",
+    "date": "2016-07",
+    "players": "GM Irina Krush – WFM Jennifer Yu"
+  },
+  {
+    "num": 27,
+    "slug": "27-2016-08-in-search-of-perfection",
+    "title": "In Search of Perfection",
+    "dek": "Correspondence chess can offer useful endgame lessons for over-the-board players, especially about balancing calculation and intuition.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "August 2016",
+    "date": "2016-08",
+    "players": "Georg Halvax – 2020)"
+  },
+  {
+    "num": 28,
+    "slug": "28-2016-09-happy-birthday-chess-life",
+    "title": "Happy Birthday, Chess Life !",
+    "dek": "Looking back at the 1946 U.S. Championship held during Chess Life’ s inaugural year.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "September 2016",
+    "date": "2016-09",
+    "players": "Gustave Drexel – Israel Horowitz"
+  },
+  {
+    "num": 29,
+    "slug": "29-2016-10-no-pain-no-gain-draw",
+    "title": "No Pain, No Gain Draw",
+    "dek": "Decisions, decisions. Sometimes you just have to take the plunge.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "October 2016",
+    "date": "2016-10",
+    "players": "IM Rasmus Svane – GM Daniel Naroditsky"
+  },
+  {
+    "num": 30,
+    "slug": "30-2016-11-going-against-the-flow",
+    "title": "Going Against the Flow",
+    "dek": "When you find yourself in a losing endgame, you must look for defensive resources until the bitter end.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "November 2016",
+    "date": "2016-11",
+    "players": "GM Anatoly Karpov – GM Viswanathan Anand"
+  },
+  {
+    "num": 31,
+    "slug": "31-2016-12-stoicism",
+    "title": "Stoicism",
+    "dek": "“If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment.” ~Marcus Aurelius, Meditations",
+    "author": "GM Daniel Naroditsky",
+    "issue": "December 2016",
+    "date": "2016-12",
+    "players": "Weston Leavens – Daniel Naroditsky"
+  },
+  {
+    "num": 32,
+    "slug": "32-2017-01-how-magnus-does-it",
+    "title": "How Magnus Does It",
+    "dek": "Analyzing an ending that won’t win a tournament’s brilliancy prize, but that will bring the dedicated analyst a great deal of instructional value and satisfaction.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "January 2017",
+    "date": "2017-01",
+    "players": "GM Magnus Carlsen – GM Hikaru Nakamura"
+  },
+  {
+    "num": 33,
+    "slug": "33-2017-02-framing",
+    "title": "Framing",
+    "dek": "“Play the board or play the opponent?” is a dilemma that goes back at least to Ruy Lopez. Here is a modern take on it.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "February 2017",
+    "date": "2017-02",
+    "players": "IM Pierre Bailet – GM Daniel Naroditsky"
+  },
+  {
+    "num": 34,
+    "slug": "34-2017-03-safe-and-secure",
+    "title": "Safe and Secure",
+    "dek": "With few pieces on the board, even grandmasters can’t take king safety for granted.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "March 2017",
+    "date": "2017-03",
+    "players": "GM Benjamin Bok – GM Vladimir Dobrov"
+  },
+  {
+    "num": 35,
+    "slug": "35-2017-04-blood-from-a-stone",
+    "title": "Blood From a Stone",
+    "dek": "In the endgame, the role of nearly imperceptible positional characteristics is magnified a hundredfold.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "April 2017",
+    "date": "2017-04",
+    "players": "Arturo Gonzalez Pruneda – Enrique Alvarez Fernandez"
+  },
+  {
+    "num": 36,
+    "slug": "36-2017-05-no-fortress-for-old-men",
+    "title": "No Fortress for Old Men",
+    "dek": "A fortress is an invaluable defensive tool, especially in the endgame.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "May 2017",
+    "date": "2017-05",
+    "players": "Christobal Dominguez – IM Rene Letelier Martner"
+  },
+  {
+    "num": 37,
+    "slug": "37-2017-06-logical-illogicality",
     "title": "Logical Illogicality",
     "dek": "This month, an ending selected for its beauty and instructive value.",
     "author": "GM Daniel Naroditsky",
-    "column": "The Practical Endgame",
     "issue": "June 2017",
     "date": "2017-06",
-    "players": "Akobian – Naroditsky, U.S. Championship 2017"
+    "players": "GM Varuzhan Akobian – GM Daniel Naroditsky"
+  },
+  {
+    "num": 38,
+    "slug": "38-2017-07-a-work-of-art",
+    "title": "A Work of Art",
+    "dek": "Remembering one of Bisguier’s greatest endgame performances",
+    "author": "GM Daniel Naroditsky",
+    "issue": "July 2017",
+    "date": "2017-07",
+    "players": "Arthur Bisguier – Weaver Adams"
+  },
+  {
+    "num": 39,
+    "slug": "39-2017-08-the-power-of-desperation",
+    "title": "The Power of Desperation",
+    "dek": "The more you believe in miracles, the more you doggedly search for resources even when all of the odds are stacked against you, the more Caissa will smile upon you.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "August 2017",
+    "date": "2017-08",
+    "players": "GM Ray Robson – IM John Daniel Bryant"
+  },
+  {
+    "num": 40,
+    "slug": "40-2017-09-a-heartwarming-narrative",
+    "title": "A Heartwarming Narrative",
+    "dek": "Examining the final stage of Tarjan’s defeat of Kramnik",
+    "author": "GM Daniel Naroditsky",
+    "issue": "September 2017",
+    "date": "2017-09",
+    "players": "GM James Tarjan – GM Vladimir Kramnik"
+  },
+  {
+    "num": 41,
+    "slug": "41-2017-09-endgame-a-play-in-one-act",
+    "title": "“Endgame”: A Play in One Act",
+    "dek": "This month, a little bit of endgame theater",
+    "author": "GM Daniel Naroditsky",
+    "issue": "September 2017",
+    "date": "2017-09",
+    "players": "GM Paul Keres – GM Bobby Fischer Curacao, 1962"
+  },
+  {
+    "num": 42,
+    "slug": "42-2017-10-cliffhanger-part-i",
+    "title": "Cliffhanger! Part I",
+    "dek": "Taking a look at one of the most fascinating endgames of recent times.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "October 2017",
+    "date": "2017-10",
+    "players": "GM Magnus Carlsen – GM Maxime Vachier-Lagrave"
+  },
+  {
+    "num": 43,
+    "slug": "43-2017-11-cliffhanger-the-conclusion",
+    "title": "Cliffhanger! The Conclusion",
+    "dek": "If you are late to the party and have not read last month’s column, doing so—while not strictly necessary to follow this month’s notes—would greatly enhance your experience.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "November 2017",
+    "date": "2017-11",
+    "players": "GM Magnus Carlsen – GM Maxime Vachier-Lagrave"
+  },
+  {
+    "num": 44,
+    "slug": "44-2018-01-lombardys-endgame-skills",
+    "title": "Lombardy’s Endgame Skills",
+    "dek": "The teenaged William Lombardy shows his talents in the World U-20 Championship.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "January 2018",
+    "date": "2018-01",
+    "players": "William Lombardy – Erkki Makelainen"
+  },
+  {
+    "num": 45,
+    "slug": "45-2018-02-the-power-of-simplicity",
+    "title": "The Power of Simplicity",
+    "dek": "When trying to find your plan in an endgame, follow the KISS principle: Keep It Simple Stupid.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "February 2018",
+    "date": "2018-02",
+    "players": "GM Anatoly Karpov – GM Jan Smejkal"
+  },
+  {
+    "num": 46,
+    "slug": "46-2018-03-move-of-the-year-endgame-edition",
+    "title": "Move of the Year, Endgame Edition",
+    "dek": "For your consideration, the world champion’s defensive gem",
+    "author": "GM Daniel Naroditsky",
+    "issue": "March 2018",
+    "date": "2018-03",
+    "players": "GM Vladimir Fedoseev – GM Magnus Carlsen"
+  },
+  {
+    "num": 47,
+    "slug": "47-2018-04-a-mouthwatering-affair",
+    "title": "A Mouthwatering Affair",
+    "dek": "The PRO Chess League provides a feast for endgame lovers.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "April 2018",
+    "date": "2018-04",
+    "players": "GM Jorden Van Foreest – Dan Smith"
+  },
+  {
+    "num": 48,
+    "slug": "48-2018-05-what-am-i-missing",
+    "title": "What Am I Missing?",
+    "dek": "Chess psychology and objective evaluation are two entirely different things.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "May 2018",
+    "date": "2018-05",
+    "players": "IM Sunil Dhopade Swapnil – GM Daniil Lintchevski"
+  },
+  {
+    "num": 49,
+    "slug": "49-2018-06-the-devil-is-in-the-detail",
+    "title": "The Devil is in the Detail",
+    "dek": "Attention to detail—in the sense of provoking and holding your opponent accountable for seemingly insignificant errors—is an indelible component of practical endgame mastery.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "June 2018",
+    "date": "2018-06",
+    "players": "GM Fabiano Caruana – GM Arkadij Naiditsch"
+  },
+  {
+    "num": 50,
+    "slug": "50-2018-07-the-us-championship-effect",
+    "title": "The U.S. Championship Effect",
+    "dek": "Shankland’s road to the title included a crucial endgame victory.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "July 2018",
+    "date": "2018-07",
+    "players": "GM Samuel Shankland – GM Yaroslav Zherebukh"
+  },
+  {
+    "num": 51,
+    "slug": "51-2018-08-the-ambushing-tactic",
+    "title": "The Ambushing Tactic",
+    "dek": "Chess psychology and objective evaluation are two entirely different things.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "August 2018",
+    "date": "2018-08",
+    "players": "GM S.P. Sethuraman – IM Daniel Naroditsky"
+  },
+  {
+    "num": 52,
+    "slug": "52-2018-09-concrete-calculations",
+    "title": "Concrete Calculations",
+    "dek": "A curious endgame reminds us to delve past superficial observations and form evaluations steeped in deeper thought.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "September 2018",
+    "date": "2018-09",
+    "players": "GM David Bronstein – GM Gideon Stahlberg"
+  },
+  {
+    "num": 53,
+    "slug": "53-2018-10-how-to-write-an-endgame-thriller",
+    "title": "How to Write an Endgame Thriller",
+    "dek": "Endgames carry remarkable entertainment value, especially when they are contested between top players and feature unique imbalances.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "October 2018",
+    "date": "2018-10",
+    "players": "GM Magnus Carlsen – GM Sergey Karjakin"
+  },
+  {
+    "num": 54,
+    "slug": "54-2018-11-false-narratives",
+    "title": "False Narratives",
+    "dek": "It’s easy to lose track of your objectives when you get caught up in self-narration.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "November 2018",
+    "date": "2018-11",
+    "players": "GM Vlastimil Hort – Hans-Joachim Deuker"
+  },
+  {
+    "num": 55,
+    "slug": "55-2018-12-the-olympiad-express",
+    "title": "The Olympiad Express",
+    "dek": "Even when the logic is flawless, the smallest imprecision in execution bears calamitous consequences.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "December 2018",
+    "date": "2018-12",
+    "players": "GM Fabiano Caruana – GM Shakhriyar Mamedyarov"
+  },
+  {
+    "num": 56,
+    "slug": "56-2019-01-chess-gps",
+    "title": "Chess GPS",
+    "dek": "When you are not sure how to evaluate a position, sometimes it’s better not to evaluate it.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "January 2019",
+    "date": "2019-01",
+    "players": "GM Ray Robson – GM Dariusz Swiercz"
+  },
+  {
+    "num": 57,
+    "slug": "57-2019-02-procrastinate-at-your-own-risk",
+    "title": "Procrastinate at Your Own Risk",
+    "dek": "When you sense that the result of the game is hanging in the balance, do not put off important decisions.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "February 2019",
+    "date": "2019-02",
+    "players": "GM Hikaru Nakamura – GM Wesley So"
+  },
+  {
+    "num": 58,
+    "slug": "58-2019-03-computer-moves",
+    "title": "Computer Moves",
+    "dek": "Humans make plenty of illogical moves, but computers are motivated by an ironclad chain of reasoning.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "March 2019",
+    "date": "2019-03",
+    "players": "GM Vladimir Kramnik – GM Sam Shankland"
+  },
+  {
+    "num": 59,
+    "slug": "59-2019-04-process-of-unelimination",
+    "title": "Process of (Un)elimination",
+    "dek": "Understanding the nature of transitions is a key component of practical endgame training.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "April 2019",
+    "date": "2019-04",
+    "players": "GM Anton Smirnov – Kangaroos”)"
+  },
+  {
+    "num": 60,
+    "slug": "60-2019-05-to-the-ladies",
+    "title": "To the Ladies",
+    "dek": "Vera Menchik, the first women’s world champion, challenged the strongest male players of her day.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "May 2019",
+    "date": "2019-05",
+    "players": "Reginald Pryce Michell – Vera Menchik Scarborough, 05.26.1928"
+  },
+  {
+    "num": 61,
+    "slug": "61-2019-06-what-am-i-missing",
+    "title": "What Am I Missing?",
+    "dek": "Sometimes less is more.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "June 2019",
+    "date": "2019-06",
+    "players": "GM Samuel Sevian – GM Lenier Dominguez Perez"
+  },
+  {
+    "num": 62,
+    "slug": "62-2019-07-typical-magnus",
+    "title": "Typical Magnus?",
+    "dek": "Carlsen possesses an uncanny ability to find moves that burden his opponent and require a great deal of calculation.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "July 2019",
+    "date": "2019-07",
+    "players": "GM Francisco Vallejo Pons – GM Magnus Carlsen"
+  },
+  {
+    "num": 63,
+    "slug": "63-2019-08-bad-but-beautiful",
+    "title": "Bad but Beautiful",
+    "dek": "Good annotations balance objectivity with beauty and practical value.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "August 2019",
+    "date": "2019-08",
+    "players": "GM Zhongyi Tan – GM Kateryna Lagno"
+  },
+  {
+    "num": 64,
+    "slug": "64-2019-09-simplicity-and-complexity",
+    "title": "Simplicity and Complexity",
+    "dek": "The search for truth in a position can follow varied and various paths.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "September 2019",
+    "date": "2019-09",
+    "players": "GM Peter Svidler – GM Evgeny Postny"
+  },
+  {
+    "num": 65,
+    "slug": "65-2019-10-calculation-fatigue",
+    "title": "Calculation Fatigue",
+    "dek": "The dangers of delving too deeply into one particular variation",
+    "author": "GM Daniel Naroditsky",
+    "issue": "October 2019",
+    "date": "2019-10",
+    "players": "GM Nico Georgiadis – GM Santosh Gujrathi Vidit"
+  },
+  {
+    "num": 66,
+    "slug": "66-2019-11-the-endgame-terminator",
+    "title": "The Endgame Terminator",
+    "dek": "Remembering GM Pal Benko",
+    "author": "GM Daniel Naroditsky",
+    "issue": "November 2019",
+    "date": "2019-11",
+    "players": "GM Pal Benko – GM Dragutin Sahovic"
+  },
+  {
+    "num": 67,
+    "slug": "67-2019-12-false-narratives",
+    "title": "False Narratives",
+    "dek": "It is exceedingly seldom that all roads lead to Rome—or is it?",
+    "author": "GM Daniel Naroditsky",
+    "issue": "December 2019",
+    "date": "2019-12",
+    "players": "GM Luke McShane – GM Fabiano Caruana"
+  },
+  {
+    "num": 68,
+    "slug": "68-2020-01-the-goalkeepers-glory",
+    "title": "The Goalkeeper’s Glory",
+    "dek": "Sometimes saving a game feels no less sweeter than winning one.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "January 2020",
+    "date": "2020-01",
+    "players": "GM Jeffery Xiong – GM Daniel Naroditsky"
+  },
+  {
+    "num": 69,
+    "slug": "69-2020-02-decoding-the-zen",
+    "title": "Decoding the “Zen”",
+    "dek": "Intuitive assumptions without rigorous calculation can lead to tragic consequences.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "February 2020",
+    "date": "2020-02",
+    "players": "GM Maxime-Vachier Lagrave – "
+  },
+  {
+    "num": 70,
+    "slug": "70-2020-03-are-all-rook-endgames-drawn",
+    "title": "Are All Rook Endgames Drawn?",
+    "dek": "Siegbert Tarrasch’s maxim is put to the test.",
+    "author": "GM Daniel Naroditsky",
+    "issue": "March 2020",
+    "date": "2020-03",
+    "players": "IM Roberto Martin Del Campo – Richard Francisco"
   }
 ]

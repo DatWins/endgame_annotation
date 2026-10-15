@@ -9,7 +9,11 @@ arts.sort(key=lambda a: (a.get('date', ''), a.get('num', 0)))
 e = html.escape
 
 cards = []
+years = []
 for a in arts:
+    y = a.get('date', '')[:4]
+    if y and y not in years:
+        years.append(y); cards.append(f'<h2 class="year" id="y{y}">{y}</h2>')
     s = a['slug']
     search = ' '.join(str(a.get(k, '')) for k in ('title', 'dek', 'author', 'column', 'issue', 'players', 'num')).lower()
     cards.append(f'''<article class="card" data-s="{e(search)}">
@@ -28,7 +32,7 @@ page = f'''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chess Life Article Library</title>
+<title>The Practical Endgame</title>
 <style>
 :root{{--fs:20px;--paper:#fbfaf7;--ink:#1d1f22;--muted:#5d6670;--line:#e2e0da;--card:#fff;--main:#1f4fa3;--mainbg:#1f4fa3;--mainfg:#fff;--btn:#fff;--btnb:#cfd5db}}
 :root[data-theme="dark"]{{--paper:#16191d;--ink:#e4e6e9;--muted:#9aa3ad;--line:#2c3238;--card:#1d2126;--main:#86b4ff;--mainbg:#2f5ea8;--mainfg:#fff;--btn:#232930;--btnb:#3a434c}}
@@ -56,6 +60,9 @@ h2 a{{color:var(--ink);text-decoration:none}} h2 a:hover{{color:var(--main)}}
 .b{{padding:8px 16px;border-radius:8px;border:1px solid var(--btnb);color:var(--ink);text-decoration:none;background:var(--btn)}}
 .b.main{{background:var(--mainbg);color:var(--mainfg);border-color:var(--mainbg);font-weight:600}}
 .count{{font-family:system-ui,"Segoe UI",sans-serif;font-size:14px;color:var(--muted)}}
+h2.year{{font-family:system-ui,"Segoe UI",sans-serif;font-size:1.1em;color:var(--muted);margin:1.2em 0 0;border-bottom:1px solid var(--line);padding-bottom:4px;scroll-margin-top:60px}}
+.years{{font-family:system-ui,"Segoe UI",sans-serif;font-size:15px;margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}}
+.years a{{padding:5px 12px;border:1px solid var(--btnb);border-radius:16px;color:var(--ink);text-decoration:none;background:var(--btn)}}
 .none{{color:var(--muted);font-style:italic}}
 @media (max-width:640px){{.card{{flex-direction:column}} .thumb img{{width:100%;max-width:320px}}}}
 </style>
@@ -68,9 +75,10 @@ h2 a{{color:var(--ink);text-decoration:none}} h2 a:hover{{color:var(--main)}}
   <button id="fm" title="Smaller text">A−</button><button id="fp" title="Larger text">A+</button><button id="dk">Dark</button>
 </div>
 <header class="hero">
-  <div class="kicker">Chess Life · Collected articles</div>
-  <h1>Chess Life Article Library</h1>
-  <p class="sub">Read each article online with a live board, or download the EPUB for your e-reader.</p>
+  <div class="kicker">GM Daniel Naroditsky · Chess Life, 2014–2020</div>
+  <h1>The Practical Endgame</h1>
+  <p class="sub">All {len(arts)} columns. Read each one online with a live board you can click through, or download the EPUB for your e-reader.</p>
+  <nav class="years">{' '.join(f'<a href="#y{y}">{y}</a>' for y in years)}</nav>
 </header>
 <main id="list">
 {chr(10).join(cards)}
@@ -80,7 +88,7 @@ h2 a{{color:var(--ink);text-decoration:none}} h2 a:hover{{color:var(--main)}}
 (function(){{
 const st={{get(k){{try{{return localStorage.getItem('lib_'+k)}}catch(e){{return null}}}},set(k,v){{try{{localStorage.setItem('lib_'+k,v)}}catch(e){{}}}}}};
 const cards=[...document.querySelectorAll('.card')], q=document.getElementById('q'), cnt=document.getElementById('count');
-function filt(){{const t=q.value.trim().toLowerCase();let n=0;cards.forEach(c=>{{const ok=!t||c.dataset.s.includes(t);c.hidden=!ok;if(ok)n++}});cnt.textContent=n+(n===1?' article':' articles');document.getElementById('none').hidden=n>0}}
+function filt(){{const t=q.value.trim().toLowerCase();let n=0;cards.forEach(c=>{{const ok=!t||c.dataset.s.includes(t);c.hidden=!ok;if(ok)n++}});document.querySelectorAll('h2.year').forEach(h=>{{let e=h.nextElementSibling,any=false;while(e&&e.classList.contains('card')){{if(!e.hidden)any=true;e=e.nextElementSibling}}h.hidden=!any}});cnt.textContent=n+(n===1?' article':' articles');document.getElementById('none').hidden=n>0}}
 q.addEventListener('input',filt);filt();
 let fs=+st.get('fs')||20;const sf=v=>{{fs=Math.max(15,Math.min(30,v));document.documentElement.style.setProperty('--fs',fs+'px');st.set('fs',fs)}};
 document.getElementById('fp').onclick=()=>sf(fs+2);document.getElementById('fm').onclick=()=>sf(fs-2);sf(fs);
