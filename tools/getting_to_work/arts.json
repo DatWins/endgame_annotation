@@ -1,0 +1,345 @@
+[
+{
+"ym": "2023-01",
+"title": "The Hows",
+"pages": [
+0,
+1
+],
+"num": 1,
+"slug": "01-2023-01-the-hows"
+},
+{
+"ym": "2023-02",
+"title": "How to Study Tactics",
+"pages": [
+2,
+3
+],
+"num": 2,
+"slug": "02-2023-02-how-to-study-tactics"
+},
+{
+"ym": "2023-03",
+"title": "Calculation",
+"pages": [
+4,
+5
+],
+"num": 3,
+"slug": "03-2023-03-calculation"
+},
+{
+"ym": "2023-04",
+"title": "Opening Study",
+"pages": [
+6,
+7,
+8
+],
+"num": 4,
+"slug": "04-2023-04-opening-study"
+},
+{
+"ym": "2023-05",
+"title": "Preparing to Play",
+"pages": [
+9,
+10
+],
+"num": 5,
+"slug": "05-2023-05-preparing-to-play"
+},
+{
+"ym": "2023-06",
+"title": "Playing Tournaments",
+"pages": [
+11,
+12
+],
+"num": 6,
+"slug": "06-2023-06-playing-tournaments"
+},
+{
+"ym": "2023-07",
+"title": "Analyzing Your Games",
+"pages": [
+13,
+14,
+15
+],
+"num": 7,
+"slug": "07-2023-07-analyzing-your-games"
+},
+{
+"ym": "2023-08",
+"title": "Now for the Endgame",
+"pages": [
+16,
+17,
+18
+],
+"num": 8,
+"slug": "08-2023-08-now-for-the-endgame"
+},
+{
+"ym": "2023-09",
+"title": "Now for Rook Endings",
+"pages": [
+19,
+20,
+21
+],
+"num": 9,
+"slug": "09-2023-09-now-for-rook-endings"
+},
+{
+"ym": "2023-10",
+"title": "More Rook Endgames",
+"pages": [
+22,
+23
+],
+"num": 10,
+"slug": "10-2023-10-more-rook-endgames"
+},
+{
+"ym": "2023-11",
+"title": "On the Attack",
+"pages": [
+24,
+25
+],
+"num": 11,
+"slug": "11-2023-11-on-the-attack"
+},
+{
+"ym": "2023-12",
+"title": "Back on the Attack",
+"pages": [
+26,
+27,
+28
+],
+"num": 12,
+"slug": "12-2023-12-back-on-the-attack"
+},
+{
+"ym": "2024-01",
+"title": "Black on the Attack",
+"pages": [
+29,
+30
+],
+"num": 13,
+"slug": "13-2024-01-black-on-the-attack"
+},
+{
+"ym": "2024-02",
+"title": "More Attack for Black",
+"pages": [
+31,
+32,
+33
+],
+"num": 14,
+"slug": "14-2024-02-more-attack-for-black"
+},
+{
+"ym": "2024-03",
+"title": "The Initiative",
+"pages": [
+34,
+35
+],
+"num": 15,
+"slug": "15-2024-03-the-initiative"
+},
+{
+"ym": "2024-04",
+"title": "Not Always Drawish",
+"pages": [
+36,
+37
+],
+"num": 16,
+"slug": "16-2024-04-not-always-drawish"
+},
+{
+"ym": "2024-05",
+"title": "Space",
+"pages": [
+38,
+39
+],
+"num": 17,
+"slug": "17-2024-05-space"
+},
+{
+"ym": "2024-06",
+"title": "The Bishop Pair",
+"pages": [
+40,
+41
+],
+"num": 18,
+"slug": "18-2024-06-the-bishop-pair"
+},
+{
+"ym": "2024-07",
+"title": "Good and Bad Bishops",
+"pages": [
+42,
+43
+],
+"num": 19,
+"slug": "19-2024-07-good-and-bad-bishops"
+},
+{
+"ym": "2024-08",
+"title": "Good Knight, Bad Bishop",
+"pages": [
+44,
+45,
+46
+],
+"num": 20,
+"slug": "20-2024-08-good-knight-bad-bishop"
+},
+{
+"ym": "2024-09",
+"title": "Have a Good Knight",
+"pages": [
+47,
+48,
+49
+],
+"num": 21,
+"slug": "21-2024-09-have-a-good-knight"
+},
+{
+"ym": "2024-10",
+"title": "Heavy Lifting",
+"pages": [
+50,
+51
+],
+"num": 22,
+"slug": "22-2024-10-heavy-lifting"
+},
+{
+"ym": "2024-11",
+"title": "Another Side of Rook Lifts",
+"pages": [
+52,
+53,
+54
+],
+"num": 23,
+"slug": "23-2024-11-another-side-of-rook-lifts"
+},
+{
+"ym": "2024-12",
+"title": "What It Takes",
+"pages": [
+55,
+56,
+57
+],
+"num": 24,
+"slug": "24-2024-12-what-it-takes"
+},
+{
+"ym": "2025-01",
+"title": "Backward Moves",
+"pages": [
+58,
+59,
+60
+],
+"num": 25,
+"slug": "25-2025-01-backward-moves"
+},
+{
+"ym": "2025-02",
+"title": "Backward Knight Moves",
+"pages": [
+61,
+62,
+63
+],
+"num": 26,
+"slug": "26-2025-02-backward-knight-moves"
+},
+{
+"ym": "2025-03",
+"title": "You Pin, I Win",
+"pages": [
+64,
+65
+],
+"num": 27,
+"slug": "27-2025-03-you-pin-i-win"
+},
+{
+"ym": "2025-04",
+"title": "Hiding in Plain Sight",
+"pages": [
+66,
+67
+],
+"num": 28,
+"slug": "28-2025-04-hiding-in-plain-sight"
+},
+{
+"ym": "2025-05",
+"title": "Side to Side",
+"pages": [
+68,
+69
+],
+"num": 29,
+"slug": "29-2025-05-side-to-side"
+},
+{
+"ym": "2025-06",
+"title": "You Can't Play That!",
+"pages": [
+70,
+71
+],
+"num": 30,
+"slug": "30-2025-06-you-cant-play-that"
+},
+{
+"ym": "2025-07",
+"title": "Look Again",
+"pages": [
+72,
+73,
+74
+],
+"num": 31,
+"slug": "31-2025-07-look-again"
+},
+{
+"ym": "2025-08",
+"title": "The Slow Boat",
+"pages": [
+75,
+76
+],
+"num": 32,
+"slug": "32-2025-08-the-slow-boat"
+},
+{
+"ym": "2025-09",
+"title": "A Long-Term Investment",
+"pages": [
+77,
+78
+],
+"num": 33,
+"slug": "33-2025-09-a-long-term-investment"
+}
+]
