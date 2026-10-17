@@ -65,7 +65,7 @@ h2.year{{font-family:system-ui,"Segoe UI",sans-serif;font-size:1.1em;color:var(-
 .years{{font-family:system-ui,"Segoe UI",sans-serif;font-size:15px;margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}}
 .years a{{padding:5px 12px;border:1px solid var(--btnb);border-radius:16px;color:var(--ink);text-decoration:none;background:var(--btn)}}
 .none{{color:var(--muted);font-style:italic}}
-@media (max-width:640px){{.card{{flex-direction:column}} .thumb img{{width:100%;max-width:320px}}}}
+@media (max-width:640px){{.card{{flex-direction:column}} .thumb img{{width:100%;max-width:320px}} .top{{flex-wrap:wrap;padding:8px 12px}} .top input{{flex:1 1 100%;max-width:none}} .top .sp{{display:none}}}}
 </style>
 </head>
 <body>
