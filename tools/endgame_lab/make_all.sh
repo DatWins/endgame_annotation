@@ -12,6 +12,7 @@ node parse.js | tail -1
 rm -rf site epubsrc
 node build_tt.js
 node epub_imgs.js | tail -1
+python3 quantize.py
 python3 pack_epubs.py
 node thumbs.js
 python3 -c "

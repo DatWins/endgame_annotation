@@ -37,5 +37,5 @@ linked (96%); the rest are threats, twin-study variants and typos in the magazin
 ## Files
 - `extract_benko.py` (+ `extract_base.py`, `fontdia.py`): layout → `ext/*.json`, `fontfens.json`
 - `prep.py` → `prep/`; `parse.js` → `model/`; `build_tt.js` + `template.html` → `site/articles/*.html`
-- `epub_imgs.js`, `pack_epubs.py` → EPUBs; `thumbs.js`, `make_index.py` → `site/index.html`
+- `epub_imgs.js`, `quantize.py` (32-colour diagrams, ~3x smaller), `pack_epubs.py` → EPUBs; `thumbs.js`, `make_index.py` → `site/index.html`
 - `arts.json`: article → PDF pages, month, title, file name
