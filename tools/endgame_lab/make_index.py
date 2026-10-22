@@ -33,13 +33,14 @@ page = f'''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Endgame Lab — Pal Benko</title>
+<title>Benko Endgame Articles — Endgame Lab</title>
 <style>
 :root{{--fs:20px;--paper:#fbfaf7;--ink:#1d1f22;--muted:#5d6670;--line:#e2e0da;--card:#fff;--main:#1f4fa3;--mainbg:#1f4fa3;--mainfg:#fff;--btn:#fff;--btnb:#cfd5db}}
 :root[data-theme="dark"]{{--paper:#16191d;--ink:#e4e6e9;--muted:#9aa3ad;--line:#2c3238;--card:#1d2126;--main:#86b4ff;--mainbg:#2f5ea8;--mainfg:#fff;--btn:#232930;--btnb:#3a434c}}
 *{{box-sizing:border-box}}
 html,body{{margin:0;background:var(--paper);color:var(--ink)}}
 body{{font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif;font-size:var(--fs);line-height:1.5}}
+.home{{color:var(--main);text-decoration:none;white-space:nowrap;font-weight:600}}
 .home{{color:var(--main);text-decoration:none;white-space:nowrap;font-weight:600}}
 .top{{position:sticky;top:0;z-index:5;display:flex;gap:10px;align-items:center;padding:8px 16px;background:var(--paper);border-bottom:1px solid var(--line);font-family:system-ui,"Segoe UI",sans-serif;font-size:15px}}
 .top input{{flex:1;max-width:420px;font:inherit;padding:7px 12px;border:1px solid var(--btnb);border-radius:8px;background:var(--btn);color:var(--ink)}}
@@ -66,18 +67,19 @@ h2.year{{font-family:system-ui,"Segoe UI",sans-serif;font-size:1.1em;color:var(-
 .years{{font-family:system-ui,"Segoe UI",sans-serif;font-size:15px;margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}}
 .years a{{padding:5px 12px;border:1px solid var(--btnb);border-radius:16px;color:var(--ink);text-decoration:none;background:var(--btn)}}
 .none{{color:var(--muted);font-style:italic}}
-@media (max-width:640px){{.card{{flex-direction:column}} .thumb img{{width:100%;max-width:320px}}}}
+@media (max-width:640px){{.card{{flex-direction:column}} .thumb img{{width:100%;max-width:320px}} .top{{flex-wrap:wrap;padding:8px 12px}} .top input{{flex:1 1 100%;max-width:none}} .top .sp{{display:none}}}}
 </style>
 </head>
 <body>
 <div class="top">
+  <a class="home" href="../" title="Back to My Chess Projects">← My Chess Projects</a>
   <input id="q" type="search" placeholder="Search title, player, issue…" aria-label="Search articles">
   <span class="sp"></span>
   <span class="count" id="count"></span>
   <button id="fm" title="Smaller text">A−</button><button id="fp" title="Larger text">A+</button><button id="dk">Dark</button>
 </div>
 <header class="hero">
-  <div class="kicker">GM Pal Benko · Chess Life, 2008–2013</div>
+  <div class="kicker">Endgame Lessons · GM Pal Benko · Chess Life, 2008–2013</div>
   <h1>Endgame Lab</h1>
   <p class="sub">All {len(arts)} columns. Read each one online with a live board you can click through, or download the EPUB for your e-reader.</p>
   <nav class="years">{' '.join(f'<a href="#y{y}">{y}</a>' for y in years)}</nav>
